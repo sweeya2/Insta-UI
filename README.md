@@ -45,3 +45,4 @@ You can also access the video to this by using this link https://drive.google.co
 ## Technologies
 * Dart
 * Flutter
+* Firebase
