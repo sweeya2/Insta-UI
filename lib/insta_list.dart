@@ -1,32 +1,40 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:test_app/insta_stories.dart';
+import 'package:test_app/profile.dart';
+
+import 'home.dart';
 
 class InstaList extends StatefulWidget {
+
   @override
   _InstaListState createState() => _InstaListState();
 }
-
+String instalistusername="";
+ List e = ["", "https://www.enjpg.com/img/2020/aesthetic-pictures-7.jpg",
+  "http://images6.fanpop.com/image/photos/40900000/YourName-kimi-no-na-wa-40955557-1400-700.jpg",
+  "https://theawesomeone.com/wp-content/uploads/2020/12/kiminonawa-scaled.jpg",
+  "https://filmdaze.net/wp-content/uploads/2018/06/vlcsnap-2018-06-13-16h56m12s456.png",
+  "https://cdn.theatlantic.com/thumbor/wwN1-QWO5L7VGpSouvrSMBw1y3I=/79x44:1843x1036/1600x900/media/img/mt/2017/04/your_name-1/original.jpg"
+];
+List b =["","${instalistusername}", "misshappy", "swee", "tan", "sid"];
+List c =["","Mumbai,India", "Pune,India", "Hyderabad,India", "Delhi,India", "Punjab,India"];
+List d =["","https://media-exp3.licdn.com/dms/image/C5603AQEhv8cuonw6Dw/profile-displayphoto-shrink_800_800/0/1620213159399?e=1631750400&v=beta&t=SewM8LVQ6rDOestLJqqF-ASaurUNSuwnQ9gf27PCSfg",
+  "https://media-exp3.licdn.com/dms/image/C4E03AQHc6vYFW6MJWw/profile-displayphoto-shrink_800_800/0/1612886682134?e=1631750400&v=beta&t=H8-WiVDeEF9MofBbyO_ywS0tFm97bon0mw23IsLK5zo",
+  "https://media-exp1.licdn.com/dms/image/C4D03AQEsAY1Ga-BtIw/profile-displayphoto-shrink_800_800/0/1627030531284?e=1632960000&v=beta&t=nebVX8Hct0DI3iYHskXuNmOLRoNCHhjuFZ5-kzpYrrQ",
+  "https://media-exp3.licdn.com/dms/image/C4E03AQFTfnOYxzdQkg/profile-displayphoto-shrink_800_800/0/1611146821633?e=1631750400&v=beta&t=ltnAHify20CDRbMsbOprwLW-oEJ5SKjYAX6NcP1g47c",
+  "https://media-exp3.licdn.com/dms/image/C5603AQFnbUNqPCHUyw/profile-displayphoto-shrink_800_800/0/1609847226661?e=1631750400&v=beta&t=iBTQjv2sS9MBEAf9WvQTjxmpNZu38vtr0I0MBeTzO84"];
 class _InstaListState extends State<InstaList> {
   bool isPressed = false;
-  static final List b =["","aadarsh", "misshappy", "swee", "tan", "sid"];
-  static final List c =["","Mumbai,India", "Pune,India", "Hyderabad,India", "Delhi,India", "Punjab,India"];
-  static final List d =["","https://media-exp3.licdn.com/dms/image/C5603AQEhv8cuonw6Dw/profile-displayphoto-shrink_800_800/0/1620213159399?e=1631750400&v=beta&t=SewM8LVQ6rDOestLJqqF-ASaurUNSuwnQ9gf27PCSfg",
-    "https://media-exp3.licdn.com/dms/image/C4E03AQHc6vYFW6MJWw/profile-displayphoto-shrink_800_800/0/1612886682134?e=1631750400&v=beta&t=H8-WiVDeEF9MofBbyO_ywS0tFm97bon0mw23IsLK5zo",
-    "https://media-exp3.licdn.com/dms/image/C4D03AQHGU4G2-8ABCw/profile-displayphoto-shrink_800_800/0/1623914344169?e=1631750400&v=beta&t=DZ2nXtj2KhosdOt2gSnaFPHuYxY_t_r3gdU57t8F8BI",
-    "https://media-exp3.licdn.com/dms/image/C4E03AQFTfnOYxzdQkg/profile-displayphoto-shrink_800_800/0/1611146821633?e=1631750400&v=beta&t=ltnAHify20CDRbMsbOprwLW-oEJ5SKjYAX6NcP1g47c",
-    "https://media-exp3.licdn.com/dms/image/C5603AQFnbUNqPCHUyw/profile-displayphoto-shrink_800_800/0/1609847226661?e=1631750400&v=beta&t=iBTQjv2sS9MBEAf9WvQTjxmpNZu38vtr0I0MBeTzO84"];
-  static final List e = ["", "https://i.pinimg.com/originals/fd/c9/98/fdc9984f77e922212d62e0cd330b10c6.png",
-    "http://images6.fanpop.com/image/photos/40900000/YourName-kimi-no-na-wa-40955557-1400-700.jpg",
-    "https://theawesomeone.com/wp-content/uploads/2020/12/kiminonawa-scaled.jpg",
-    "https://filmdaze.net/wp-content/uploads/2018/06/vlcsnap-2018-06-13-16h56m12s456.png",
-    "https://cdn.theatlantic.com/thumbor/wwN1-QWO5L7VGpSouvrSMBw1y3I=/79x44:1843x1036/1600x900/media/img/mt/2017/04/your_name-1/original.jpg"
-  ];
   @override
+  // void initState() {
+  //   print(URLL);
+  //   super.initState();
+  // }
   Widget build(BuildContext context) {
     var deviceSize = MediaQuery.of(context).size;
     return ListView.builder(
-      itemCount: 6,
+      itemCount: b.length,
       itemBuilder: (context, index) => index == 0
           ? new SizedBox(
         child: new InstaStories(),
@@ -83,6 +91,7 @@ class _InstaListState extends State<InstaList> {
           Flexible(
             fit: FlexFit.loose,
             child: new Image.network(
+              //URLL,
               e[index],
               fit: BoxFit.cover,
             ),
