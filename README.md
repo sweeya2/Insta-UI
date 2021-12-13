@@ -10,27 +10,12 @@ A clone of the Instagram Android App.
 ## General info
 A clone of the Instagram Android App using Flutter.
 
-## Screenshots
-
- Login and Sign Up           |  Login
- :-------------------------:|:-------------------------:
-![feed1](https://github.com/sweeya2/Insta-UI/blob/master/screenshots/login%20and%20signup.png)|![feed2](https://github.com/sweeya2/Insta-UI/blob/master/screenshots/login.png)
-
-Sign Up           |  Home
- :-------------------------:|:-------------------------:
-![feed1](https://github.com/sweeya2/Insta-UI/blob/master/screenshots/sign%20up.png)|![feed2](https://github.com/sweeya2/Insta-UI/blob/master/screenshots/home.png)
-
-DM           |  Search
- :-------------------------:|:-------------------------:
-![feed1](https://github.com/sweeya2/Insta-UI/blob/master/screenshots/dm.png)|![feed2](https://github.com/sweeya2/Insta-UI/blob/master/screenshots/search.png)
-
-Favourite           |  Profile
- :-------------------------:|:-------------------------:
-![feed1](https://github.com/sweeya2/Insta-UI/blob/master/screenshots/favourite.png)|![feed2](https://github.com/sweeya2/Insta-UI/blob/master/screenshots/profile.png)
 
 
-## Video: 
-You can also access the video to this by using this link https://drive.google.com/file/d/1KXehZ2wgotjmz7mamNEYMzAZuKzKEKnW/view?usp=sharing
+
+https://user-images.githubusercontent.com/77005617/145815508-143dea56-854c-43a5-a2f3-9078b5f75c90.mp4
+
+
 
 ## Features
 * **Login and Sign Up** : leads to login and sign uup screens respectively.
