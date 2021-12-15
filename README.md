@@ -10,7 +10,7 @@ A clone of the Instagram Android App.
 A clone of the Instagram Android App using Flutter.
 
 ## Collaborator
-Created by [Sweeya Reddy](https://github.com/sweeya2) in  [Aadarshraj-Sah](https://github.com/Aadarshraj-Sah)
+Created by [Sweeya Reddy](https://github.com/sweeya2) in collaboration with [Aadarshraj-Sah](https://github.com/Aadarshraj-Sah)
 
 
 https://user-images.githubusercontent.com/77005617/145815508-143dea56-854c-43a5-a2f3-9078b5f75c90.mp4
