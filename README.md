@@ -10,7 +10,7 @@ A clone of the Instagram Android App.
 A clone of the Instagram Android App using Flutter.
 
 ## Collaborator
-[Aadarshraj-Sah](https://github.com/Aadarshraj-Sah)
+Created by [Sweeya Reddy](https://github.com/sweeya2) in  [Aadarshraj-Sah](https://github.com/Aadarshraj-Sah)
 
 
 https://user-images.githubusercontent.com/77005617/145815508-143dea56-854c-43a5-a2f3-9078b5f75c90.mp4
@@ -18,14 +18,21 @@ https://user-images.githubusercontent.com/77005617/145815508-143dea56-854c-43a5-
 
 
 ## Features
-* **Login and Sign Up** : leads to login and sign uup screens respectively.
-* **Login** : includes various button, can be used to navigate to the sign up screen and the home screen.
-* **Sign Up** : includes various button, can be used to navigate to the login screen and the home screen.
-* **Home** : scrollable stories and posts, posts can be commented and liked followed by a snackbar, includes bottom nagigation bar, navigates to a dm screen.
-* **DM** : scrollable messages starting from recents.
-* **Search** : include grid view of posts, with bottom navigation bar included.
-* **Favourite** : to show recent activities, with bottom navigation bar included.
-* **Profile** : includes info and few images, has a Logout Button.
+* **Login or Signup** - Two buttons
+* **Login** - Text Fields and a Button
+* **Sign UP** - Text Fields and a Button
+* **Authentication** - You can sign up and use the details to login next time.
+* **Google Sign in** - You can use google account to sign in.
+* **Firebase** - Uses google firebase for authentication and storing details
+* **Home**- Scrollable stories and feeds, Feeds can be commented and liked which will follow a snackbar, DM page button at the top right.
+* **Search** - Added few images using grid view
+* **Favourites** - to show recent activities
+* **Profile** Contains info and few images, It also has Logout Button.
+* **Edit profile** - it allows you to edit you Name, username add website and Bio.
+* **Dm** - Has recent messages received
+* **Upload Image** - You can new upload Images which will be shown in you profile page and new feeds.
+
+Every page has an AppBar and Navigation Bar to switch between pages.
 
 ## Technologies
 * Dart
