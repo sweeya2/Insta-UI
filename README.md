@@ -3,14 +3,14 @@ A clone of the Instagram Android App.
 
 ## Table of contents
 * [General info](#general-info)
-* [Screenshots](#screenshots)
 * [Features](#features)
 * [Technologies](#technologies)
 
 ## General info
 A clone of the Instagram Android App using Flutter.
 
-
+## Collaborator
+[Aadarshraj-Sah](https://github.com/Aadarshraj-Sah)
 
 
 https://user-images.githubusercontent.com/77005617/145815508-143dea56-854c-43a5-a2f3-9078b5f75c90.mp4
